@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "deployWallet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "getAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_wallet",
+						"type": "address"
+					}
+				],
+				"name": "getOperator",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_operator",
+						"type": "address"
+					}
+				],
+				"name": "getWallets",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newOwner",
+						"type": "address"
+					}
+				],
+				"name": "updateWallet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/registry.sol": "Registry"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/proxy.sol": {
+			"keccak256": "0x9acc81eff5810c268b2d03ac853375b8466eb23c3c396515b3d76317a261bbb5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e1881bbfa14543b546d964f253a7d69a761bfd9a434599e79c52c1784397bf5d",
+				"dweb:/ipfs/QmRJreaJALV5v2FFghdhVgTfsbwqdfBrHjNWfZP3BM4QEE"
+			]
+		},
+		"contracts/registry.sol": {
+			"keccak256": "0xa8675cf896f9309e6af9b2f0ae3e390acc142f45122b1defd3673a055c933a20",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1d47949ab6713588c8b7b80265786c494149cb2431fa5dd19513e041fb8ae120",
+				"dweb:/ipfs/Qmd84cHhxjRQbvV4mf9AysnvB9b6rFw57S2CqZHL8md4Uz"
+			]
+		}
+	},
+	"version": 1
+}
